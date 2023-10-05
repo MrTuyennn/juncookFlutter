@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:juncook_master/learns/HomeLogic.dart';
+import 'package:juncook_master/view/CounterScreen.dart';
 import 'package:juncook_master/view/LoginScreen.dart';
 import 'package:juncook_master/view/Parent.dart';
 import 'package:juncook_master/view/ParentScreen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Parent(),
+      home: const CounterScreen(),
     );
   }
 }
