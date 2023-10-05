@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:juncook_master/Logic.dart';
+import 'package:juncook_master/learns/Logic.dart';
 
 class HomeLogic extends StatefulWidget {
   const HomeLogic({super.key});

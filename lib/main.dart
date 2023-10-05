@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:juncook_master/HomeLogic.dart';
+import 'package:juncook_master/learns/HomeLogic.dart';
+import 'package:juncook_master/view/LoginScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeLogic(),
+      home: const LoginScreen(),
     );
   }
 }
